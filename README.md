@@ -32,7 +32,7 @@ python test_connection.py
 ```
 
 ## Usage
-With the database set up, you can connect Power BI Desktop to the SQL Server instance running inside the Docker container. Use the provided credentials in the .secrets.ps1 file.
+With the database set up, you can connect interact with the SQL Server instance running inside the Docker container. Specify your desired credentials in the .secrets.ps1 file.
 
 ## Troubleshooting
 If you encounter any issues, please check the logs and error messages for details. Most common issues can be resolved by ensuring the ContosoRetailDW.bak file is correctly placed in the root directory or ensuring that Docker is running properly.
