@@ -1,0 +1,9 @@
+# Ignore backup files
+*.bak
+
+# Ignore Excel files
+*.xlsx
+
+# Ignore all dot files except .gitignore
+.*
+!.gitignore
