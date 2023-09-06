@@ -7,3 +7,6 @@
 # Ignore all dot files except .gitignore
 .*
 !.gitignore
+
+# Ignore Python virtual environment
+venv/
