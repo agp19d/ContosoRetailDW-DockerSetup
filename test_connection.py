@@ -3,7 +3,7 @@ import json
 import subprocess
 
 def load_secrets_from_powershell():
-    result = subprocess.run(["pwsh", "-File", ".secrets.ps1"], capture_output=True, text=True)
+    result = subprocess.run(["powershell", "-File", ".secrets.ps1"], capture_output=True, text=True)
     secrets = json.loads(result.stdout)
     return secrets
 
@@ -45,6 +45,7 @@ def fetch_data_from_database(server, database, username, password):
         print(f"Error: {e}")
 
 if __name__ == "__main__":
+
     secrets = load_secrets_from_powershell()
     
     SERVER = "localhost"
