@@ -5,7 +5,6 @@ This repository provides a streamlined approach to set up the ContosoRetailDW SQ
 - Docker
 - PowerShell
 - Python (if you wish to run the connection test script)
-- Go to https://www.microsoft.com/en-US/download/details.aspx?id=18279 , download the ContosoBIdemoABF.exe file, extract the ContosoRetailDW.bak file, and store it in your root folder 
 
 ## Setup
 1. Clone this repository
@@ -16,7 +15,7 @@ cd ContosoRetailDW-DockerSetup
 Replace your_username with your actual GitHub username.
 
 2. Download and extract the ContosoRetailDW backup
-- Download the contosobak.exe file from the source (provide the link here).
+- Download the contosobak.exe file from the source https://www.microsoft.com/en-US/download/details.aspx?id=18279.
 - Run the downloaded .exe to extract the ContosoRetailDW.bak file.
 - Move or copy the ContosoRetailDW.bak to the root folder of this cloned repository.
 
