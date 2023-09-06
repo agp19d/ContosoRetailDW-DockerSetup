@@ -41,5 +41,5 @@ If you encounter any issues, please check the logs and error messages for detail
 Contributions are welcome! Please fork this repository and open a pull request to add more functionalities or fix any issues.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
